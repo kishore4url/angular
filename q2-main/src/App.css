@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+.App {
+  text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: arial, tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  direction: ltr;
+  background: white;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+}
+
+h2 {
+  color: #9E9E9E;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  margin: 50px auto;
+  max-width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px #BDBDBD;
+}
+
+.card__image {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  max-height: 200px;
+}
+
+.card__copy {
+  padding: 20px;
+}
+
+.submitBtn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: lightseagreen;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.deleteBtn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: rgb(193, 32, 32);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+form {
+  margin: 10% auto 0 auto;
+  padding: 30px;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  background: white;
+  border-radius: 10px;
+}
+
+form label {
+  font-size: 14px;
+  color: darkgray;
+  cursor: pointer;
+}
+
+form label,
+form input {
+  float: left;
+  clear: both;
+}
+form input {
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  display: inline-block;
+  box-sizing: border-box;
+  transition: 0.2s ease all;
+}
